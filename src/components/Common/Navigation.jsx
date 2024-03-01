@@ -3,11 +3,11 @@ import Nav from "react-bootstrap/Nav";
 import { Container } from "react-bootstrap";
 import Logo from "../../assets/TOB125Stamp.png";
 
-function Navigation() {
+const Navigation = () => {
   return (
-    <Navbar className="bg-body-tertiary">
+    <Navbar className="bg-body-tertiary px-3">
       <Container fluid className="justify-content-between">
-        <Navbar.Brand href="#">
+        <Navbar.Brand href="#" className="">
           <img
             alt=""
             src={Logo}
@@ -23,6 +23,6 @@ function Navigation() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default Navigation;

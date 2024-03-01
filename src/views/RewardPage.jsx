@@ -1,33 +1,31 @@
-import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 function RewardPage() {
   // Confetti Hook
 
   return (
     <>
-    <Row>
-      <Col>
-        <div>Navigation</div>
-      </Col>
-      <Col>
+      <Row>
+        <Navigation />
+      </Row>
+      <Row>
         <div>Congradulations Banner</div>
-      </Col>
-      <Col>
+      </Row>
+      <Row>
         <div>Trophie Image</div>
-      </Col>
-      <Col>
+      </Row>
+      <Row>
         <div>Explanation Content</div>
-      </Col>
-      <Col>
+      </Row>
+      <Row>
         <div>Enter Pize Button</div>
         <div>Return Button</div>
-      </Col>
-      <Col>
+      </Row>
+      <Row>
         <div>Footer</div>
-      </Col>
-    </Row>
+      </Row>
     </>
-  )
+  );
 }
 
-export default RewardPage
+export default RewardPage;

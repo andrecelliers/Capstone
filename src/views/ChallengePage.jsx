@@ -1,21 +1,19 @@
-import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Row, Col } from "react-bootstrap";
 function ChallengePane() {
   return (
     <>
-    <Row>
-      <Col>
-        <div>Navigation</div>
-      </Col>
-      <Col>
+      <Row>
+        <Navigation />
+      </Row>
+      <Row>
         <div>Challenge Pane</div>
-      </Col>
-      <Col>
+      </Row>
+      <Row>
         <div>Footer?</div>
-      </Col>
-    </Row>
+      </Row>
     </>
-  )
+  );
 }
 
-export default ChallengePane
+export default ChallengePane;
