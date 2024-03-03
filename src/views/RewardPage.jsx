@@ -6,23 +6,17 @@ function RewardPage() {
   return (
     <>
       <Row>
-        <Navigation />
-      </Row>
-      <Row>
         <div>Congradulations Banner</div>
       </Row>
       <Row>
-        <div>Trophie Image</div>
+        <div>Trophy Img</div>
       </Row>
       <Row>
-        <div>Explanation Content</div>
+        <div>Explanation Text</div>
       </Row>
       <Row>
-        <div>Enter Pize Button</div>
+        <div>Enter Prize Button</div>
         <div>Return Button</div>
-      </Row>
-      <Row>
-        <div>Footer</div>
       </Row>
     </>
   );
