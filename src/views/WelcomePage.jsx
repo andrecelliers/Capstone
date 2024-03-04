@@ -24,7 +24,7 @@ const WelcomePage = () => {
               />
             </Row>
             <Row className="py-2">
-              <CustomButton text="Start Challenge" />
+              <CustomButton text="Start Challenge" link="/challenge" />
             </Row>
             <Row>
               <div>Explanation Content</div>
