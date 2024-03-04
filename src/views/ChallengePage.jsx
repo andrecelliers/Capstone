@@ -1,7 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 function ChallengePage() {
-  return <div>Challenge Page</div>;
+  return (
+    <Container fluid className="challenge-container bg-secondary">
+      Challenge Page
+    </Container>
+  );
 }
 
 export default ChallengePage;

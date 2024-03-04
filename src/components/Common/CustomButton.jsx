@@ -15,10 +15,10 @@ const CustomButton = (props) => {
     <>
       {isLinked ? (
         <Link to={props.link}>
-          <Button>{props.text}</Button>
+          <Button size={props.size}>{props.text}</Button>
         </Link>
       ) : (
-        <Button>{props.text}</Button>
+        <Button size={props.size}>{props.text}</Button>
       )}
     </>
   );

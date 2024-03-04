@@ -3,11 +3,9 @@ import { Container } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className="mt-auto">
-      <Container fluid className="bg-secondary-subtle text-center">
-        Footer
-      </Container>
-    </footer>
+    <Container fluid className="custom-footer bg-secondary-subtle text-center">
+      <footer>Footer</footer>
+    </Container>
   );
 };
 

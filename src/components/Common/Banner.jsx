@@ -3,9 +3,12 @@ import Container from "react-bootstrap/Container";
 
 const Banner = (props) => {
   return (
-    <Container fluid className="bg-body-primary">
+    <Container
+      fluid
+      className="d-flex justify-content-center bg-body-primary m-2"
+    >
       <h1>{props.bannerHeader}</h1>
-      <p>{props.bannerSubtitle}</p>
+      {props.bannerSubtitle ? <p>{props.bannerSubtitle}</p> : null}
     </Container>
   );
 };
