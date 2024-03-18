@@ -1,12 +1,17 @@
 import { useEffect, useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import { Container, NavDropdown, Offcanvas } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavDropdown,
+  Offcanvas,
+} from "react-bootstrap";
+import { Link, useParams } from "react-router-dom";
 import pageData from "../../utils/page-content.json";
 import Logo from "/TOB125Stamp.png";
 
 const Navigation = () => {
+  const { key } = useParams();
   const [pages, setPages] = useState({});
   const [show, setShow] = useState(false);
 
@@ -20,14 +25,14 @@ const Navigation = () => {
   return (
     <Navbar expand="sm" className="bg-body-tertiary px-3">
       <Container fluid>
-        <Navbar.Brand href="#" className="">
+        <Navbar.Brand as={Link} to={`/welcome/${key}`}>
           <img
             alt=""
             src={Logo}
             width="30"
             height="30"
             className="d-inline-block align-top"
-          />{" "}
+          />
           Bridgewater 125
         </Navbar.Brand>
         <Navbar.Toggle
@@ -89,7 +94,7 @@ const Navigation = () => {
                     );
                   })}
                 </NavDropdown>
-                <Nav.Link as={Link} to="/">
+                <Nav.Link as={Link} to={`/welcome/${key}`}>
                   Home
                 </Nav.Link>
               </Nav>
