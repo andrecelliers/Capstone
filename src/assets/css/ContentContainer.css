@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .disable-float {
+    float: none !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
