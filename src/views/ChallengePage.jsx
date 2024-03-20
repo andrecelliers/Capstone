@@ -1,12 +1,8 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Stage, Container, Sprite } from "@pixi/react";
 
-function ChallengePage() {
-  return (
-    <Container fluid className="challenge-container bg-secondary">
-      Challenge Page
-    </Container>
-  );
-}
+const ChallengePage = () => {
+  return <Stage width={350} height={600}></Stage>;
+};
 
 export default ChallengePage;
