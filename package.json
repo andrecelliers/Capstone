@@ -10,14 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@pixi/react": "^7.1.2",
     "bootstrap": "^5.3.3",
     "pixi.js": "^8.0.2",
     "prettier": "^3.2.5",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
-    "react-dom": "^18.2.0",
-    "react-pixi-fiber": "^1.0.6"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",
