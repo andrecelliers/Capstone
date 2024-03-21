@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import Navigation from "./Navigation";
 import Footer from "./Footer";
+import "../../assets/css/Layout.css";
 
 const Layout = () => {
   return (
