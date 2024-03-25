@@ -1,62 +1,14 @@
-import {
-  Stage,
-  Container,
-  Sprite,
-  Text,
-  Graphics,
-  withFilters,
-  useTick,
-} from "@pixi/react";
-import { useState, useCallback, useRef, useEffect } from "react";
+import { Stage } from "@pixi/react";
+import { useState } from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import * as PIXI from "pixi.js";
+import backGroundImage from "../assets/BridgeRunner/Map.png";
 import Player from "../components/ChallengePage/BridgeSwimmer/Player.jsx";
+import Background from "../components/ChallengePage/BridgeSwimmer/Background.jsx";
 
 const ChallengePage = () => {
   const [view, setView] = useState({ width: 350, height: 700 });
-
-  const [playerPosition, setplayerPosition] = useState({
-    x: view.width / 2,
-    y: view.height * 0.8,
-  });
-
-  useEffect(() => {
-    // TODO: I want to move the player when the button is held then stop with it is released
-    const handleKeyDown = (e) => {
-      switch (e.key) {
-        case "ArrowLeft":
-          setplayerPosition((pos) => ({ ...pos, x: pos.x - 5 }));
-          break;
-        case "ArrowRight":
-          setplayerPosition((pos) => ({ ...pos, x: pos.x + 5 }));
-          break;
-        default:
-          break;
-      }
-    };
-
-    const handleKeyUp = (e) => {
-      switch (e.key) {
-        case "ArrowLeft":
-          // setplayerPosition((pos) => ({ ...pos, x: pos.x - 5 }));
-          break;
-        case "ArrowRight":
-          // setplayerPosition((pos) => ({ ...pos, x: pos.x + 5 }));
-          break;
-        default:
-          break;
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    window.addEventListener("keyup", handleKeyUp);
-
-    // Cleanup
-    return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-      window.removeEventListener("keyup", handleKeyUp);
-    };
-  }, []);
+  const [backgroundY, setBackgroundY] = useState(-1400 + view.height);
 
   return (
     <ReactBootStrap.Container fluid className="d-flex justify-content-center">
@@ -68,7 +20,16 @@ const ChallengePage = () => {
           antialias: true,
         }}
       >
-        <Player x={playerPosition.x} y={playerPosition.y} />
+        <Background
+          image={backGroundImage}
+          backgroundY={backgroundY}
+          setBackgroundY={setBackgroundY}
+        />
+        <Player
+          x={view.width / 2}
+          y={view.height * 0.8}
+          backgroundPos={backgroundY}
+        />
       </Stage>
     </ReactBootStrap.Container>
   );
