@@ -1,0 +1,15 @@
+.bufferRow {
+  height: 110px;
+}
+
+.letter {
+  width: 70px;
+  height: 70px;
+  font-size: 2em;
+}
+
+.keyboardKey {
+  width: 33px;
+  height: 33px;
+  max-width: 33px;
+}

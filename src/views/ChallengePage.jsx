@@ -2,11 +2,13 @@ import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import SlidePuzzle from "../components/ChallengePage/SlidePuzzle/SlidePuzzle";
+import TOBordle from "../components/ChallengePage/TOBordle/TOBordle";
 import pageData from "../utils/page-content.json";
 
 // Create a mapping of strings to components
 const componentMapping = {
   SlidePuzzle: SlidePuzzle,
+  TOBordle: TOBordle,
   // Add other components here
 };
 
@@ -20,11 +22,7 @@ const ChallengePage = () => {
   // Get the component from the mapping
   const Component = componentMapping[componentName];
 
-  return (
-    <ReactBootStrap.Container fluid className="d-flex justify-content-center">
-      {Component ? <Component /> : null}
-    </ReactBootStrap.Container>
-  );
+  return Component ? <Component /> : null;
 };
 
 export default ChallengePage;
