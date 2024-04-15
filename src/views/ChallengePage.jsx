@@ -1,28 +1,30 @@
-import { Stage, useApp, AppProvider } from "@pixi/react";
-import { useState } from "react";
+import React from "react";
 import * as ReactBootStrap from "react-bootstrap";
-import * as PIXI from "pixi.js";
-import Blocks from "../components/ChallengePage/SlidePuzzle/Blocks";
+import { useParams } from "react-router-dom";
+import SlidePuzzle from "../components/ChallengePage/SlidePuzzle/SlidePuzzle";
+import pageData from "../utils/page-content.json";
+
+// Create a mapping of strings to components
+const componentMapping = {
+  SlidePuzzle: SlidePuzzle,
+  // Add other components here
+};
 
 const ChallengePage = () => {
-  const [view, setView] = useState({ width: 3072, height: 3072 });
-  const app = new PIXI.Application();
+  const { key } = useParams();
+
+  // Get the component name from pageData
+  const componentName =
+    pageData[key]?.challenge || pageData["default"].challenge;
+
+  // Get the component from the mapping
+  const Component = componentMapping[componentName];
 
   return (
     <ReactBootStrap.Container fluid className="d-flex justify-content-center">
-      <AppProvider value={app}>
-        <Stage
-          width={view.width}
-          height={view.height}
-          options={{
-            backgroundColor: 0x012b30,
-            antialias: true,
-          }}
-        >
-          <Blocks />
-        </Stage>
-      </AppProvider>
+      {Component ? <Component /> : null}
     </ReactBootStrap.Container>
   );
 };
+
 export default ChallengePage;

@@ -1,38 +1,52 @@
 {
   "0": {
-    "title": "Page 0",
-    "content": "This is the content for page 0"
+    "header": "History Header 0",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": "SlidePuzzle"
   },
   "1": {
-    "title": "Page 1",
-    "content": "This is the content for page 1."
+    "header": "History Header 1",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "2": {
-    "title": "Page 2",
-    "content": "This is the content for page 2."
+    "header": "History Header 2",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "3": {
-    "title": "Page 3",
-    "content": "This is the content for page 3."
+    "header": "History Header 3",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "4": {
-    "title": "Page 4",
-    "content": "This is the content for page 4."
+    "header": "History Header 4",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "5": {
-    "title": "Page 5",
-    "content": "This is the content for page 5."
+    "header": "History Header 5",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "6": {
-    "title": "Page 6",
-    "content": "This is the content for page 6."
+    "header": "History Header 6",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "7": {
-    "title": "Page 7",
-    "content": "This is the content for page 7."
+    "header": "History Header 7",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
   },
   "8": {
-    "title": "Page 8",
-    "content": "This is the content for page 8."
+    "header": "History Header 8",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "challenge": null
+  },
+  "default": {
+    "header": "Error",
+    "content": "Error",
+    "challenge": "Slidepuzzle"
   }
 }

@@ -42,3 +42,10 @@ export const loadSpriteSheet = async (imageSrc, frameSize, numFrames) => {
     return Object.values(spriteSheet.textures);
   });
 };
+
+
+export const loadBaseImageAsset = async (imageSrc) => {
+  // Add the image to the asset loader then load it
+  PIXI.Assets.add({alias: 'blockBaseImage', src: imageSrc});
+  return PIXI.Assets.load('blockBaseImage');
+};
