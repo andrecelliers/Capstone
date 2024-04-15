@@ -5,7 +5,8 @@ import App from "./App";
 import "./assets/css/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // Removed from project to prevent double rendering, add me back
+  // <React.StrictMode>
+  <App />
+  // </React.StrictMode>
 );
