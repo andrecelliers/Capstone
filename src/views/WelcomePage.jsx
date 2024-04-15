@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Banner from "../components/Common/Banner";
 import CustomButton from "../components/Common/CustomButton";
 import ContentConatiner from "../components/Common/ContentContainer";
-import pagaData from "../utils/page-content.json";
+import pageData from "../utils/page-content.json";
 
 const WelcomePage = () => {
   const { key } = useParams();
@@ -16,9 +16,9 @@ const WelcomePage = () => {
       </Row>
       <Row className="px-1">
         <ContentConatiner
-          Header={pagaData[key].header}
-          Content={pagaData[key].content}
-          Image="https://via.placeholder.com/200"
+          Header={pageData[key].header}
+          Content={pageData[key].content}
+          Image={pageData[key].image}
         />
       </Row>
       <Row className="d-flex py-3">

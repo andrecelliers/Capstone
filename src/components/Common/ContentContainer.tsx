@@ -3,6 +3,7 @@ import { Container, Image } from "react-bootstrap";
 import "../../assets/css/ContentContainer.css";
 
 const ContentConatiner = (props) => {
+  console.log(props.Image);
   return (
     <Container
       fluid
@@ -13,6 +14,8 @@ const ContentConatiner = (props) => {
           <Image
             src={props.Image}
             className={`border border-dark-subtle rounded-2 float-end m-2 ${window.innerWidth <= 768 ? "disable-float" : "float-end"}`}
+            height={250}
+            width={250}
             alt={`${props.Header} Image`}
           />
         </Container>
