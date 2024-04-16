@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
+import { act } from "react-dom/test-utils";
 
 const KeyContainer = (props) => {
   const [colorState, setcolorState] = useState(0);
+  const { activeWord, setActiveWord } = props;
 
   const handleLetterClick = (letter) => {
+    if (activeWord.length <= 5) {
+      setActiveWord(activeWord + letter);
+    }
     console.log("Letter clicked: ", letter);
   };
 
