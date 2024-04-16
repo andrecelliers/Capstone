@@ -23,7 +23,6 @@ const GuessContainer = ({ correctWord, words, activeIndex }) => {
   }, []);
 
   useEffect(() => {
-    const newWordRows = [];
     setWordRows((prev) => {
       const newWords = [...prev];
       newWords[activeIndex] = (
@@ -31,11 +30,27 @@ const GuessContainer = ({ correctWord, words, activeIndex }) => {
           key={`${activeIndex}`}
           correctWord={correctWord}
           word={words[activeIndex]}
+          isEntered={false}
         />
       );
       return newWords;
     });
   }, [activeIndex, words]);
+
+  useEffect(() => {
+    setWordRows((prev) => {
+      const newWords = [...prev];
+      newWords[activeIndex - 1] = (
+        <WordContainer
+          key={`${activeIndex - 1}`}
+          correctWord={correctWord}
+          word={words[activeIndex - 1]}
+          isEntered={true}
+        />
+      );
+      return newWords;
+    });
+  }, [activeIndex]);
 
   if (isloading) return null;
   return (

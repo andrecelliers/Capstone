@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Row } from "react-bootstrap";
 import LetterContainer from "./LetterContainer";
 
-const WordContainer = ({ word, wordKey }) => {
+const WordContainer = ({ word, correctWord, wordKey, isEntered }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [letters, setLetters] = useState([]);
   const [wordLength, setWordLength] = useState(0);
@@ -39,6 +39,7 @@ const WordContainer = ({ word, wordKey }) => {
               key={`${word.length}-letter`}
               letterKey={word.length}
               letter={""}
+              colorState={0}
             />
           );
         }
@@ -47,6 +48,32 @@ const WordContainer = ({ word, wordKey }) => {
       });
     }
   }, [word]);
+
+  useEffect(() => {
+    if (isEntered) {
+      setLetters((prev) => {
+        const newLetters = [...prev];
+        for (let i = 0; i < word.length; i++) {
+          let colorState = 1;
+          if (word[i] === correctWord[i]) {
+            colorState = 2;
+          } else if (correctWord.includes(word[i])) {
+            colorState = 3;
+          }
+
+          newLetters[i] = (
+            <LetterContainer
+              key={`${i}-letter`}
+              letterKey={i}
+              letter={word[i]}
+              colorState={colorState}
+            />
+          );
+        }
+        return newLetters;
+      });
+    }
+  }, [isEntered]);
 
   if (isLoading) return;
   return <Row key={`${wordKey}-word`}>{letters.map((letter) => letter)}</Row>;
