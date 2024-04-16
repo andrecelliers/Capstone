@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: normal;
-  color: rgba(209,221,216, 0.87);
+  color: rgba(209, 221, 216, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
@@ -16,19 +16,6 @@
   --bs-body-bg: #b8cbc3;
   --bs-body-color: #3a3a3a;
   --bs-emphasis-color: #ffffff;
-
-  /* Start challenge button */
-  --bs-btn-bg: #2c648c;
-  --bs-btn-hover-color:
-}
-
-.btn {
-  --bs-btn-color: #dbe7ec;
-  --bs-btn-bg: #2c648c;
-  --bs-btn-border-color: #5e7841;
-  --bs-btn-hover-color: #dbe7ec;
-  --bs-btn-hover-bg: #235070;
-  --bs-btn-hover-border-color: #2c648c;
 }
 
 .modal-header {
@@ -36,11 +23,9 @@
   background-color: #5e7841;
 }
 
-
 .form-control {
   --bs-body-bg: #ffffff;
 }
-
 
 body,
 #root {

@@ -1,0 +1,8 @@
+.customButton {
+  --bs-btn-color: #dbe7ec;
+  --bs-btn-bg: #2c648c;
+  --bs-btn-border-color: #5e7841;
+  --bs-btn-hover-color: #dbe7ec;
+  --bs-btn-hover-bg: #235070;
+  --bs-btn-hover-border-color: #2c648c;
+}

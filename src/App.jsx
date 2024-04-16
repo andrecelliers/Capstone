@@ -1,5 +1,4 @@
 import React from "react";
-import "./assets/css/App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import WelcomePage from "./views/WelcomePage";
