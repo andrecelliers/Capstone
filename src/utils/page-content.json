@@ -1,22 +1,32 @@
 {
   "0": {
+<<<<<<< HEAD
     "header": "History Header 0",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+=======
+    "header": "Woodland Gardens Park Duck Pond",
+    "content": "Woodland Garden Park in Bridgewater, Nova Scotia, is a tranquil oasis nestled amidst lush greenery and scenic beauty. This picturesque park offers a serene escape from the hustle and bustle of daily life, inviting visitors to immerse themselves in nature's embrace.\n One of its highlights is the charming duck pond, where graceful ducks glide across the water's surface, adding to the park's peaceful ambiance. Visitors can stroll along winding pathways, shaded by towering trees, and take in the sights and sounds of the natural world. The park also features well-maintained gardens, providing a colorful tapestry of flora throughout the seasons.\n Whether you're seeking a quiet moment of reflection, a leisurely walk, or a place to connect with nature, Woodland Garden Park offers a delightful retreat for all who visit.",
+    "image": "/WoodlandGardenDuckPond.png",
+>>>>>>> 0937d6d16eb27ea447644920881b1bdaf0b73668
     "challenge": "TOBordle"
   },
   "1": {
-    "header": "History Header 1",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "header": "Shipyards Landing",
+    "content": "Shipyards Landing in Bridgewater, NS, is a vibrant waterfront destination where history meets modern charm. With picturesque views of the LaHave River, it offers a scenic backdrop for leisurely walks, waterfront dining, and community events.",
+    "image": "/ShipyardsLanding.png",
     "challenge": null
   },
   "2": {
-    "header": "History Header 2",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "header": "Pijinuiskaq Park",
+    "content": "Pijinuiskaq Park in Bridgewater, NS, is a cultural hub celebrating Mi'kmaq heritage and community spirit. Nestled along the scenic LaHave River, it offers a serene setting for reflection, outdoor activities, and cultural events.",
+    "image": "/PijinuiskaqPark.png",
     "challenge": null
   },
   "3": {
-    "header": "History Header 3",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus egestas sed sed risus pretium. Velit ut tortor pretium viverra suspendisse potenti. Nam aliquam sem et tortor consequat id porta nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris ultrices eros in cursus turpis massa. Proin libero nunc consequat interdum varius. Consectetur adipiscing elit pellentesque habitant. Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et. A diam maecenas sed enim ut sem viverra. Tempus egestas sed sed risus pretium. Nunc aliquet bibendum enim facilisis gravida neque convallis. Vitae sapien pellentesque habitant morbi. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Enim praesent elementum facilisis leo vel fringilla. Eleifend donec pretium vulputate sapien nec sagittis. At urna condimentum mattis pellentesque id. Suscipit tellus mauris a diam maecenas. Sed felis eget velit aliquet sagittis id consectetur. Diam vel quam elementum pulvinar etiam non quam lacus.",
+    "header": "Centennial Trail",
+    "content": "The Centennial Trail is an 8-kilometer multi-use trail ideal for hiking, cycling, horseback riding, and cross-country skiing. It meanders through forested areas, meadows, and parks along the river and offers an opportunity to run errands as it loops around the town center and its many amenities..",
+    "image": "/CentennialTrail.png",
+
     "challenge": null
   },
   "4": {
