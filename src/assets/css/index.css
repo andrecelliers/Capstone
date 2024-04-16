@@ -48,3 +48,9 @@ body,
   font-weight: 400;
   font-style: normal;
 }
+
+.my-modal {
+  width: 90%;
+  max-width: 90%;
+
+} 

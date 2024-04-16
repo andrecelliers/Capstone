@@ -10,6 +10,7 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Form from "react-bootstrap/Form";
+import Confetti from 'react-confetti'
 
 function RewardPage() {
   const { key } = useParams();
@@ -17,6 +18,7 @@ function RewardPage() {
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  const { width, height } = 500;
 
   const [validated, set_Validated] = useState(false);
   const [form_Data, set_Form_Data] = useState({
@@ -46,6 +48,10 @@ function RewardPage() {
 
   return (
     <>
+    <Confetti
+      width={width}
+      height={height}
+    />
       <Row className="d-flex justify-content-center">
         <Bannner bannerHeader="Congratulations!" />
       </Row>
@@ -68,7 +74,7 @@ function RewardPage() {
       <Row className="py-3 px-1">
         <ContentConatiner Content="In order to qualify for your prize, enter your details with the 'Enter Prize' button. Ballots will count only once per person per challenge." />
       </Row>
-      <Modal
+      <Modal dialogClassName="my-modal"
         show={show}
         onHide={handleClose}
         backdrop="static"
