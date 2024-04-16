@@ -5,23 +5,35 @@ import KeyboardContainer from "./KeyboardContainer";
 import "./css.css";
 
 const TOBordle = () => {
-  const [word, setWord] = useState("WATER");
-  const [words, setWords] = useState(["START", "WORDY"]);
-  const [activeWord, setActiveWord] = useState("");
+  const [correctWord, setCorrectWord] = useState("WATER");
+  const [words, setWords] = useState(["", "", "", "", "", ""]);
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  const handleActiveWordChange = (letter) => {
+    setWords((prev) => {
+      const newWords = [...prev];
+      if (newWords[activeIndex].length < 5) {
+        newWords[activeIndex] += letter;
+      }
+      return newWords;
+    });
+  };
+
+  // useEffect(() => {
+  //   console.log(words[activeIndex]);
+  // }, [words, activeIndex]);
 
   return (
     <Row>
       <Col sm={0} md={3} />
       <Col>
-        <GuessContainer word={word} words={words} activeWord={activeWord} />
-        <Row className="bufferRow" />
-        <KeyboardContainer
-          word={word}
+        <GuessContainer
+          correctWord={correctWord}
           words={words}
-          setWords={setWords}
-          activeWord={activeWord}
-          setActiveWord={setActiveWord}
+          activeIndex={activeIndex}
         />
+        <Row className="bufferRow" />
+        <KeyboardContainer handleActiveWordChange={handleActiveWordChange} />
       </Col>
       <Col sm={0} md={3} />
     </Row>
