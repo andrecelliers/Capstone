@@ -60,7 +60,7 @@ const TOBordle = () => {
           <CustomButton text="Rewards" link={`/challenge/${key}`} />
         </Modal.Footer>
       </Modal>
-      <Col sm={0} md={3} />
+      <Col sm={0} md={2} />
       <Col className="mt-3">
         <GuessContainer
           correctWord={correctWord}
@@ -75,7 +75,7 @@ const TOBordle = () => {
           activeIndex={activeIndex}
         />
       </Col>
-      <Col sm={0} md={3} />
+      <Col sm={0} md={2} />
     </Row>
   );
 };
