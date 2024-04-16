@@ -16,16 +16,16 @@ const WelcomePage = () => {
       </Row>
       <Row className="px-1">
         <ContentConatiner
-          Header={pageData[key].header}
-          Content={pageData[key].content}
-          Image={pageData[key].image}
+          Header={pageData[key ? key : 0].header}
+          Content={pageData[key ? key : 0].content}
+          Image={pageData[key ? key : 0].image}
         />
       </Row>
       <Row className="d-flex py-3">
         <Container fluid className="d-flex justify-content-center">
           <CustomButton
             text="Start Challenge"
-            link={`/challenge/${key}`}
+            link={`/challenge/${key ? key : 0}`}
             size="lg"
           />
         </Container>
