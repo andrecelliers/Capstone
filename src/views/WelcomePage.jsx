@@ -12,7 +12,7 @@ const WelcomePage = () => {
   return (
     <>
       <Row>
-        <Banner bannerHeader="Welcome to Bridgewater 125!" />
+        <Banner bannerHeader="Welcome to the Bridgewater 125 Scavenger Hunt" />
       </Row>
       <Row className="px-1">
         <ContentConatiner
@@ -34,17 +34,7 @@ const WelcomePage = () => {
         <h4>What is this?</h4>
         <hr />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus
-          egestas sed sed risus pretium. Velit ut tortor pretium viverra
-          suspendisse potenti. Nam aliquam sem et tortor consequat id porta
-          nibh. Elementum integer enim neque volutpat. Vestibulum lectus mauris
-          ultrices eros in cursus turpis massa. Proin libero nunc consequat
-          interdum varius. Consectetur adipiscing elit pellentesque habitant.
-          Odio pellentesque diam volutpat commodo sed. Mauris a diam maecenas
-          sed enim ut sem viverra aliquet. Tortor vitae purus faucibus ornare
-          suspendisse sed nisi. Pellentesque pulvinar pellentesque habitant
-          morbi tristique senectus et.
+          For Bridgewater's 125th anniversary, we've scattered QR codes throughout local parks and areas of significance, scan the QR code with your phone and complete the challenge in order to qualify for a prize draw hosted by the Town of Bridgewater.
         </p>
       </Row>
     </>
