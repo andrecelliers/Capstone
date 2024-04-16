@@ -3,14 +3,28 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color-scheme: normal;
+  color: rgba(209, 221, 216, 0.87);
   background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* General body */
+  --bs-body-bg: #b8cbc3;
+  --bs-body-color: #3a3a3a;
+  --bs-emphasis-color: #ffffff;
+}
+
+.modal-header {
+  color: #ffffff;
+  background-color: #5e7841;
+}
+
+.form-control {
+  --bs-body-bg: #ffffff;
 }
 
 body,
