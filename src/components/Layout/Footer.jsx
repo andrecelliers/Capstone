@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Footer = () => {
   return (
     <Container fluid className="custom-footer bg-secondary-subtle text-center">
-      <footer>Footer</footer>
+      <footer>Andre & Eli Co.©</footer>
     </Container>
   );
 };

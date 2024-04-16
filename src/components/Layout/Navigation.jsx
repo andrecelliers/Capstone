@@ -2,9 +2,16 @@ import { useEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 import Logo from "/TOB125Stamp.png";
+import { useNavigate } from 'react-router-dom';
 
 const Navigation = () => {
   const { key } = useParams();
+  const navigate = useNavigate();
+
+  const goBack = () => {
+      navigate('/welcome/');
+  };
+
 
   return (
     <Navbar expand="sm" className="bg-body-tertiary px-3">
@@ -19,7 +26,7 @@ const Navigation = () => {
           />
           Bridgewater 125
         </Navbar.Brand>
-        <Nav.Link href="#">Back</Nav.Link>
+        <Nav.Link onClick={goBack}>Back</Nav.Link>
       </Container>
     </Navbar>
   );

@@ -68,7 +68,8 @@ function RewardPage() {
             className="customButton">
             Enter Prize
           </Button>
-          <CustomButton text="Return" link={`/welcome/${key}`} />
+          {/*link={`/welcome/${key}`} original, hardcoding for temp fix */}
+          <CustomButton text="Return" link={`/welcome/`} />
         </Container>
       </Row>
       <Row className="py-3 px-1">
