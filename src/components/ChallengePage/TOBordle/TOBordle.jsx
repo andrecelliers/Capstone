@@ -53,9 +53,9 @@ const TOBordle = () => {
       </Modal>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header>
-          <Modal.Title>Congrats!</Modal.Title>
+          <Modal.Title>Better Luck next time!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>You got the word!</Modal.Body>
+        <Modal.Body>Try again</Modal.Body>
         <Modal.Footer>
           <CustomButton text="Rewards" link={`/challenge/${key}`} />
         </Modal.Footer>
