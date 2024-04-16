@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Col } from "react-bootstrap";
 
 const LetterContainer = ({ letterKey, letter, colorState }) => {
-  console.log(`Letter: ${letter} : ${colorState}`);
   const [bgColor, setbgColor] = useState("bg-light");
   const [fontColor, setFontColor] = useState("");
 

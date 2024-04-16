@@ -21,6 +21,7 @@ const KeyboardContainer = (props) => {
               letter={letter}
               handleActiveWordChange={props.handleActiveWordChange}
               activeIndex={props.activeIndex}
+              colorState={0}
             />
           );
         });
@@ -32,14 +33,31 @@ const KeyboardContainer = (props) => {
   }, []);
 
   useEffect(() => {
+    if (props.activeIndex === 0) return;
+    console.log(props.activeIndex);
     const newKeyboard = keyboardLetters.map((row, i) => {
       return row.map((letter, j) => {
+        let colorState = 0;
+        for (let k = 0; k < props.activeIndex; k++) {
+          const word = props.words[k];
+          if (word.includes(letter)) {
+            if (word.indexOf(letter) === props.correctWord.indexOf(letter)) {
+              colorState = colorState < 3 ? 3 : colorState;
+            }
+            if (props.correctWord.includes(letter)) {
+              colorState = colorState < 2 ? 2 : colorState;
+            }
+            colorState = colorState < 1 ? 1 : colorState;
+          }
+        }
+
         return (
           <KeyContainer
             key={`${i}-${j}-key`}
             letter={letter}
             handleActiveWordChange={props.handleActiveWordChange}
             activeIndex={props.activeIndex}
+            colorState={colorState}
           />
         );
       });

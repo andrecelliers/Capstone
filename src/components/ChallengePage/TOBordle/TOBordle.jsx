@@ -41,6 +41,8 @@ const TOBordle = () => {
         <Row className="bufferRow" />
         <KeyboardContainer
           handleActiveWordChange={handleActiveWordChange}
+          correctWord={correctWord}
+          words={words}
           activeIndex={activeIndex}
         />
       </Col>
