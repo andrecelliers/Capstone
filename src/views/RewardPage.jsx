@@ -95,11 +95,11 @@ function RewardPage() {
                 autoFocus
                 value={form_Data.user}
                 onChange={chngFn}
-                pattern="^[a-zA-Z]+$"
+                pattern="^[a-zA-Z ]+$"
                 required
                 isInvalid={
                   validated &&
-                  !/^[a-zA-Z0-9]+$/.test(form_Data.user)
+                  !/^[a-zA-Z0-9 ]+$/.test(form_Data.user)
                 }
               />
             <Form.Control.Feedback type="invalid">

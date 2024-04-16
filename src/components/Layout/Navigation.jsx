@@ -16,7 +16,7 @@ const Navigation = () => {
   return (
     <Navbar expand="sm" className="bg-body-tertiary px-3">
       <Container fluid>
-        <Navbar.Brand as={Link} to={`/welcome/${key}`}>
+        <Navbar.Brand as={Link} to={`/welcome/`}>
           <img
             alt=""
             src={Logo}
