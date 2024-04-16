@@ -34,7 +34,10 @@ const WelcomePage = () => {
         <h4>What is this?</h4>
         <hr />
         <p>
-          For Bridgewater's 125th anniversary, we've scattered QR codes throughout local parks and areas of significance, scan the QR code with your phone and complete the challenge in order to qualify for a prize draw hosted by the Town of Bridgewater.
+          For Bridgewater's 125th anniversary, we've scattered QR codes
+          throughout local parks and areas of significance, scan the QR code
+          with your phone and complete the challenge in order to qualify for a
+          prize draw hosted by the Town of Bridgewater.
         </p>
       </Row>
     </>

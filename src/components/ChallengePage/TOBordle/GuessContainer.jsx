@@ -23,6 +23,7 @@ const GuessContainer = ({ correctWord, words, activeIndex }) => {
   }, []);
 
   useEffect(() => {
+    if (activeIndex === 6) return;
     setWordRows((prev) => {
       const newWords = [...prev];
       newWords[activeIndex] = (

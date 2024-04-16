@@ -34,7 +34,6 @@ const KeyboardContainer = (props) => {
 
   useEffect(() => {
     if (props.activeIndex === 0) return;
-    console.log(props.activeIndex);
     const newKeyboard = keyboardLetters.map((row, i) => {
       return row.map((letter, j) => {
         let colorState = 0;
