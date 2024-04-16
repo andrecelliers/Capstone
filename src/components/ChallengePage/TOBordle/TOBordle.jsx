@@ -1,23 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Guesses from "./Guesses";
-import KeyboardCustom from "./KeyboardCustom";
+import GuessContainer from "./GuessContainer";
+import KeyboardContainer from "./KeyboardContainer";
 import "./css.css";
 
 const TOBordle = () => {
-  const [view, setView] = useState({
-    width: 350,
-    height: 700,
-  });
+  const [word, setWord] = useState("WATER");
+  const [words, setWords] = useState(["START", "WORDY"]);
+  const [activeWord, setActiveWord] = useState("");
 
   return (
-    <Container fluid className="p-0">
-      <Row className="d-flex justify-content-center">
-        <Guesses />
-      </Row>
-      <Row className="bufferRow" />
-      <KeyboardCustom />
-    </Container>
+    <Row>
+      <Col sm={0} md={3} />
+      <Col>
+        <GuessContainer word={word} words={words} activeWord={activeWord} />
+        <Row className="bufferRow" />
+        <KeyboardContainer
+          word={word}
+          words={words}
+          setWords={setWords}
+          activeWord={activeWord}
+          setActiveWord={setActiveWord}
+        />
+      </Col>
+      <Col sm={0} md={3} />
+    </Row>
   );
 };
 

@@ -19,7 +19,7 @@ function RewardPage() {
       </Row>
       <Row className="pb-2">
         <Container md={"6"} className="d-flex justify-content-center my-1">
-          <Image src="/Trophy.svg" width={300} />
+          <Image src="/Trophy.png" width={300} />
         </Container>
       </Row>
       <Row>
