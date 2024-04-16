@@ -20,6 +20,7 @@ const KeyboardContainer = (props) => {
               key={`${i}-${j}-key`}
               letter={letter}
               handleActiveWordChange={props.handleActiveWordChange}
+              activeIndex={props.activeIndex}
             />
           );
         });
@@ -29,6 +30,23 @@ const KeyboardContainer = (props) => {
       setIsLoading(false);
     }
   }, []);
+
+  useEffect(() => {
+    const newKeyboard = keyboardLetters.map((row, i) => {
+      return row.map((letter, j) => {
+        return (
+          <KeyContainer
+            key={`${i}-${j}-key`}
+            letter={letter}
+            handleActiveWordChange={props.handleActiveWordChange}
+            activeIndex={props.activeIndex}
+          />
+        );
+      });
+    });
+
+    setKeyboard(newKeyboard);
+  }, [props.activeIndex]);
 
   if (isLoading) return;
   return (

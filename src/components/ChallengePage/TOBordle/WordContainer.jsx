@@ -5,6 +5,7 @@ import LetterContainer from "./LetterContainer";
 const WordContainer = ({ word, wordKey }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [letters, setLetters] = useState([]);
+  const [wordLength, setWordLength] = useState(0);
 
   useEffect(() => {
     if (isLoading) {
@@ -21,17 +22,27 @@ const WordContainer = ({ word, wordKey }) => {
 
       setIsLoading(false);
     } else {
-      console.log(word);
       const newLetters = [];
       setLetters((prev) => {
         const newLetters = [...prev];
-        newLetters[word.length - 1] = (
-          <LetterContainer
-            key={`${word.length - 1}-letter`}
-            letterKey={word.length - 1}
-            letter={word[word.length - 1]}
-          />
-        );
+        if (wordLength == word.length - 1) {
+          newLetters[word.length - 1] = (
+            <LetterContainer
+              key={`${word.length - 1}-letter`}
+              letterKey={word.length - 1}
+              letter={word[word.length - 1]}
+            />
+          );
+        } else {
+          newLetters[word.length] = (
+            <LetterContainer
+              key={`${word.length}-letter`}
+              letterKey={word.length}
+              letter={""}
+            />
+          );
+        }
+        setWordLength(word.length);
         return newLetters;
       });
     }

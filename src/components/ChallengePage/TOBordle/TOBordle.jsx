@@ -9,18 +9,24 @@ const TOBordle = () => {
   const [words, setWords] = useState(["", "", "", "", "", ""]);
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleActiveWordChange = (letter) => {
+  const handleActiveWordChange = (letter, index) => {
     setWords((prev) => {
       const newWords = [...prev];
-      if (newWords[activeIndex].length < 5) {
-        newWords[activeIndex] += letter;
+      if (letter === "<") {
+        newWords[index] = newWords[index].slice(0, -1);
+      } else if (letter === "#") {
+        if (newWords[index].length === 5) {
+          setActiveIndex((prev) => prev + 1);
+        }
+      } else if (newWords[index].length < 5) {
+        newWords[index] += letter;
       }
       return newWords;
     });
   };
 
   // useEffect(() => {
-  //   console.log(words[activeIndex]);
+  //   console.log(`I: ${activeIndex} : ${words[activeIndex]}`);
   // }, [words, activeIndex]);
 
   return (
@@ -33,7 +39,10 @@ const TOBordle = () => {
           activeIndex={activeIndex}
         />
         <Row className="bufferRow" />
-        <KeyboardContainer handleActiveWordChange={handleActiveWordChange} />
+        <KeyboardContainer
+          handleActiveWordChange={handleActiveWordChange}
+          activeIndex={activeIndex}
+        />
       </Col>
       <Col sm={0} md={3} />
     </Row>
